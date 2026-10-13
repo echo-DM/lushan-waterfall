@@ -1,0 +1,159 @@
+[
+  {
+    "size": "1440 x 900",
+    "counts": {
+      "inapplicable": 39,
+      "incomplete": 1,
+      "passes": 21,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 8,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<span><i></i> 庐山 · 白日山谷</span>",
+            "target": [
+              ".scene-topline > span:nth-child(1)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<span class=\"scene-edition\">一片山水，四重诗境</span>",
+            "target": [
+              ".scene-edition"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span class=\"scene-kicker\">诗境 04 / 04</span>",
+            "target": [
+              ".scene-kicker"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<h2>仰望 · 九天</h2>",
+            "target": [
+              "h2"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p>深潭岸边</p>",
+            "target": [
+              ".scene-caption > p"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span>全景</span>",
+            "target": [
+              "button[aria-label=\"返回全景（快捷键 0）\"] > span"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span>暂停</span>",
+            "target": [
+              "button[aria-label=\"暂停动画\"] > span"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<span class=\"note-mark\" aria-hidden=\"true\">「</span>",
+            "target": [
+              ".note-mark"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "size": "390 x 844",
+    "counts": {
+      "inapplicable": 39,
+      "incomplete": 1,
+      "passes": 21,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 5,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<span><i></i> 庐山 · 白日山谷</span>",
+            "target": [
+              ".scene-topline > span:nth-child(1)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span class=\"scene-kicker\">诗境 04 / 04</span>",
+            "target": [
+              ".scene-kicker"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<h2>仰望 · 九天</h2>",
+            "target": [
+              "h2"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p>深潭岸边</p>",
+            "target": [
+              ".scene-caption > p"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<span class=\"note-mark\" aria-hidden=\"true\">「</span>",
+            "target": [
+              ".note-mark"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  }
+]

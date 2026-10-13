@@ -1,0 +1,666 @@
+{
+  "checkedAt": "2026-10-13T11:43:07.382Z",
+  "url": "http://127.0.0.1:4173",
+  "browser": "agent-browser isolated Chromium",
+  "mobile": "390 x 844; iPhone 15 emulation with viewport override; CDP touch input, not a physical device",
+  "expectedGraphicsConsole": [
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "THREE.WebGLRenderer: Context Lost."
+        }
+      ],
+      "text": "THREE.WebGLRenderer: Context Lost.",
+      "type": "log"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "THREE.WebGLRenderer: WEBGL_lose_context extension not supported."
+        }
+      ],
+      "text": "THREE.WebGLRenderer: WEBGL_lose_context extension not supported.",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "THREE.WebGLRenderer: Context Lost."
+        }
+      ],
+      "text": "THREE.WebGLRenderer: Context Lost.",
+      "type": "log"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "THREE.WebGLRenderer: Error creating WebGL context."
+        }
+      ],
+      "text": "THREE.WebGLRenderer: Error creating WebGL context.",
+      "type": "error"
+    }
+  ],
+  "passed": true,
+  "checks": [
+    {
+      "name": "desktop first frame, full poem, single canvas",
+      "passed": true,
+      "detail": {
+        "animationTime": 0.3307999999880792,
+        "camera": [
+          108.00000000000016,
+          76.00000000000006,
+          -130.00000000000023
+        ],
+        "compact": false,
+        "contextLost": false,
+        "drawCalls": 34,
+        "flying": false,
+        "fps": 0,
+        "frameCount": 19,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -5,
+          33,
+          25
+        ],
+        "triangles": 375422,
+        "view": "overview"
+      }
+    },
+    {
+      "name": "desktop viewpoint: purple-mist",
+      "passed": true,
+      "detail": {
+        "animationTime": 2.680799999988077,
+        "camera": [
+          -112,
+          79,
+          -31
+        ],
+        "compact": false,
+        "contextLost": false,
+        "drawCalls": 16,
+        "flying": false,
+        "fps": 59,
+        "frameCount": 160,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -38,
+          67,
+          41
+        ],
+        "triangles": 375194,
+        "view": "purple-mist"
+      }
+    },
+    {
+      "name": "desktop viewpoint: hanging-waterfall",
+      "passed": true,
+      "detail": {
+        "animationTime": 4.997499999988082,
+        "camera": [
+          27.99999999999997,
+          41.999999999999986,
+          -116
+        ],
+        "compact": false,
+        "contextLost": false,
+        "drawCalls": 33,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 299,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -7,
+          35,
+          23
+        ],
+        "triangles": 375410,
+        "view": "hanging-waterfall"
+      }
+    },
+    {
+      "name": "desktop viewpoint: plunging-water",
+      "passed": true,
+      "detail": {
+        "animationTime": 7.330699999988096,
+        "camera": [
+          40.00000000000001,
+          57,
+          -38.00000000000002
+        ],
+        "compact": false,
+        "contextLost": false,
+        "drawCalls": 32,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 439,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -7.999999999999995,
+          29,
+          18
+        ],
+        "triangles": 375386,
+        "view": "plunging-water"
+      }
+    },
+    {
+      "name": "desktop viewpoint: silver-river",
+      "passed": true,
+      "detail": {
+        "animationTime": 9.696899999988084,
+        "camera": [
+          -3.9999999999999942,
+          4.999999999999979,
+          -20.99999999999998
+        ],
+        "compact": false,
+        "contextLost": false,
+        "drawCalls": 17,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 581,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -8,
+          56.99999999999998,
+          24.000000000000036
+        ],
+        "triangles": 375206,
+        "view": "silver-river"
+      }
+    },
+    {
+      "name": "desktop accessibility: no detected WCAG A/AA violations",
+      "passed": true,
+      "detail": {
+        "inapplicable": 39,
+        "incomplete": 1,
+        "passes": 21,
+        "violations": 0
+      }
+    },
+    {
+      "name": "rapid selection reaches the latest verse",
+      "passed": true,
+      "detail": {
+        "animationTime": 12.08069999998806,
+        "camera": [
+          -3.9999999999999942,
+          4.999999999999986,
+          -21.000000000000004
+        ],
+        "compact": false,
+        "contextLost": false,
+        "drawCalls": 17,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 722,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -8,
+          56.999999999999986,
+          24.00000000000001
+        ],
+        "triangles": 375206,
+        "view": "silver-river"
+      }
+    },
+    {
+      "name": "leaving an upward view has no immediate camera jump",
+      "passed": true,
+      "detail": {
+        "before": [
+          -3.9999999999999942,
+          4.999999999999986,
+          -21.000000000000004
+        ],
+        "after": [
+          -3.9999999999999942,
+          4.999999999999986,
+          -20.999999999999993
+        ]
+      }
+    },
+    {
+      "name": "drag interrupts an active camera flight",
+      "passed": true,
+      "detail": {
+        "interrupted": [
+          -111.9829717945276,
+          79.00359571971292,
+          -31.010338553322555
+        ],
+        "after": [
+          -74.48902089065444,
+          94.1978307113758,
+          -52.44593608287269
+        ]
+      }
+    },
+    {
+      "name": "switching view while dragging reaches the requested verse",
+      "passed": true,
+      "detail": {
+        "animationTime": 17.063999999987995,
+        "camera": [
+          40,
+          57,
+          -38.00000000000002
+        ],
+        "compact": false,
+        "contextLost": false,
+        "drawCalls": 32,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 1021,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -7.9999999999999964,
+          29,
+          18
+        ],
+        "triangles": 375386,
+        "view": "plunging-water"
+      }
+    },
+    {
+      "name": "repeat selection restores a view after free observation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mouse wheel zoom changes camera distance",
+      "passed": true,
+      "detail": {
+        "before": 196.57822870297733,
+        "after": 182.67544460968355
+      }
+    },
+    {
+      "name": "return to overview clears verse selection",
+      "passed": true,
+      "detail": {
+        "animationTime": 26.4806999999877,
+        "camera": [
+          108.00000000000009,
+          76.00000000000003,
+          -130.0000000000001
+        ],
+        "compact": false,
+        "contextLost": false,
+        "drawCalls": 34,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 1586,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -5,
+          33,
+          25
+        ],
+        "triangles": 375422,
+        "view": "overview"
+      }
+    },
+    {
+      "name": "keyboard navigation and visible focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes scenery while navigation remains active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manual reduced motion freezes scenery and removes flights",
+      "passed": true,
+      "detail": {
+        "frozenAt": 35.413799999987845
+      }
+    },
+    {
+      "name": "desktop resize preserves scene and readable navigation",
+      "passed": true,
+      "detail": {
+        "buttons": [
+          {
+            "height": 83,
+            "left": 907,
+            "right": 1242,
+            "width": 335
+          },
+          {
+            "height": 83,
+            "left": 907,
+            "right": 1242,
+            "width": 335
+          },
+          {
+            "height": 83,
+            "left": 907,
+            "right": 1242,
+            "width": 335
+          },
+          {
+            "height": 83,
+            "left": 907,
+            "right": 1242,
+            "width": 335
+          }
+        ],
+        "canvasCount": 1,
+        "overflow": false,
+        "viewport": [
+          1280,
+          800
+        ]
+      }
+    },
+    {
+      "name": "simulated mobile layout and first frame",
+      "passed": true,
+      "detail": {
+        "buttons": [
+          {
+            "height": 93,
+            "left": 19,
+            "right": 371,
+            "width": 352
+          },
+          {
+            "height": 93,
+            "left": 19,
+            "right": 371,
+            "width": 352
+          },
+          {
+            "height": 93,
+            "left": 19,
+            "right": 371,
+            "width": 352
+          },
+          {
+            "height": 93,
+            "left": 19,
+            "right": 371,
+            "width": 352
+          }
+        ],
+        "canvasCount": 1,
+        "overflow": false,
+        "viewport": [
+          390,
+          844
+        ],
+        "state": {
+          "animationTime": 0.25569999998807913,
+          "camera": [
+            108.00000000000016,
+            76.00000000000006,
+            -130.00000000000023
+          ],
+          "compact": true,
+          "contextLost": false,
+          "drawCalls": 33,
+          "flying": false,
+          "fps": 0,
+          "frameCount": 15,
+          "paused": false,
+          "pixelRatio": 1,
+          "ready": true,
+          "reducedMotion": false,
+          "target": [
+            -5,
+            33,
+            25
+          ],
+          "triangles": 366398,
+          "view": "overview"
+        }
+      }
+    },
+    {
+      "name": "simulated mobile viewpoint: purple-mist",
+      "passed": true,
+      "detail": {
+        "animationTime": 2.5556999999880774,
+        "camera": [
+          -112,
+          79,
+          -31
+        ],
+        "compact": true,
+        "contextLost": false,
+        "drawCalls": 28,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 153,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -38,
+          67,
+          41
+        ],
+        "triangles": 366290,
+        "view": "purple-mist"
+      }
+    },
+    {
+      "name": "simulated mobile viewpoint: hanging-waterfall",
+      "passed": true,
+      "detail": {
+        "animationTime": 4.85569999998808,
+        "camera": [
+          27.99999999999997,
+          41.999999999999986,
+          -116
+        ],
+        "compact": true,
+        "contextLost": false,
+        "drawCalls": 32,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 291,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -7,
+          35,
+          23
+        ],
+        "triangles": 366386,
+        "view": "hanging-waterfall"
+      }
+    },
+    {
+      "name": "simulated mobile viewpoint: plunging-water",
+      "passed": true,
+      "detail": {
+        "animationTime": 7.155599999988094,
+        "camera": [
+          40.00000000000001,
+          57,
+          -38.00000000000002
+        ],
+        "compact": true,
+        "contextLost": false,
+        "drawCalls": 31,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 429,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -7.999999999999995,
+          29,
+          18
+        ],
+        "triangles": 366362,
+        "view": "plunging-water"
+      }
+    },
+    {
+      "name": "simulated mobile viewpoint: silver-river",
+      "passed": true,
+      "detail": {
+        "animationTime": 9.45559999998808,
+        "camera": [
+          -3.9999999999999942,
+          4.999999999999979,
+          -20.999999999999993
+        ],
+        "compact": true,
+        "contextLost": false,
+        "drawCalls": 16,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 567,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -8,
+          56.99999999999998,
+          24.00000000000002
+        ],
+        "triangles": 366182,
+        "view": "silver-river"
+      }
+    },
+    {
+      "name": "simulated mobile accessibility: no detected WCAG A/AA violations",
+      "passed": true,
+      "detail": {
+        "inapplicable": 39,
+        "incomplete": 1,
+        "passes": 21,
+        "violations": 0
+      }
+    },
+    {
+      "name": "simulated single-finger orbit",
+      "passed": true,
+      "detail": {
+        "before": [
+          108.00000000000009,
+          76.00000000000003,
+          -130.0000000000001
+        ],
+        "after": [
+          149.59272504619474,
+          103.751241828559,
+          -73.6830843787754
+        ]
+      }
+    },
+    {
+      "name": "simulated two-finger pinch zoom",
+      "passed": true,
+      "detail": {
+        "before": 196.57822870297736,
+        "after": 111.27513000823872
+      }
+    },
+    {
+      "name": "system reduced motion on fresh mount",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "normal console and page errors before failure injection",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "graphics connection loss preserves poem and can recover",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WebGL unavailable during scene initialization preserves poem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recovery remounts leave one canvas and responsive navigation",
+      "passed": true,
+      "detail": {
+        "animationTime": 4.528499999976161,
+        "camera": [
+          108.00000000000011,
+          76.00000000000003,
+          -130.00000000000017
+        ],
+        "compact": true,
+        "contextLost": false,
+        "drawCalls": 33,
+        "flying": false,
+        "fps": 60,
+        "frameCount": 272,
+        "paused": false,
+        "pixelRatio": 1,
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -5,
+          33,
+          25
+        ],
+        "triangles": 366398,
+        "view": "overview"
+      }
+    },
+    {
+      "name": "final production console and page errors",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "consoleMessages": []
+      }
+    }
+  ]
+}
