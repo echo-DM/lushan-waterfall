@@ -13,7 +13,7 @@ pnpm install
 pnpm dev
 ```
 
-开发服务默认地址为 `http://localhost:5173/`，实际地址以终端输出为准。本次开发服务使用独立端口 `http://localhost:4185/`，可通过 `pnpm dev --port 4185 --strictPort` 指定。生产构建与预览：
+开发服务默认地址为 `http://localhost:5173/lushan-waterfall/`，实际地址以终端输出为准。可通过 `pnpm dev --port 4185 --strictPort` 指定独立端口。生产构建与预览：
 
 ```sh
 pnpm check
@@ -21,7 +21,15 @@ pnpm build
 pnpm preview --port 4173 --strictPort
 ```
 
-生产预览地址为 `http://localhost:4173/`，`dist/` 是生成的生产文件。依赖锁定在 `pnpm-lock.yaml`；本地 pnpm 缓存放在已忽略的 `.pnpm-store/`。
+生产预览地址为 `http://localhost:4173/lushan-waterfall/`，`dist/` 是生成的生产文件。依赖锁定在 `pnpm-lock.yaml`；本地 pnpm 缓存放在已忽略的 `.pnpm-store/`。
+
+## GitHub Pages 部署
+
+目标地址：<https://echo-dm.github.io/lushan-waterfall/>。
+
+首次部署前，在仓库 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions**。将配置推送到 `main` 后，工作流会使用 Node.js 22 和 `packageManager` 指定的 pnpm 版本，按锁文件安装依赖、构建并发布 `dist/`。也可在 **Actions → Deploy to GitHub Pages → Run workflow** 中选择 `main` 手动部署。
+
+Vite 的 `base` 配置为 `/lushan-waterfall/`，对应仓库站点的资源路径。以 Actions 部署成功且目标地址可访问作为上线确认；本地构建成功仅代表本地验证通过。
 
 ## 走进山水
 
@@ -69,7 +77,7 @@ React + TypeScript + Vite + Three.js。景物通过真实 3D 方块程序化生�
 浏览器验收使用已安装的 `agent-browser`：先启动生产预览，再执行：
 
 ```sh
-pnpm qa http://127.0.0.1:4173
+pnpm qa http://127.0.0.1:4173/lushan-waterfall/
 ```
 
 验收脚本使用独立浏览器会话，保存截图和 `docs/qa-results.json`；多指触控、指定画布坐标的滚轮和受控图形失败使用该会话的 CDP。运行结果和覆盖边界见 [验收记录](docs/acceptance.md)。只读 `window.__lushan.state` 提供首帧、当前镜头、转场、相机、绘制成本和动画时间，便于核对实际运行状态。
